@@ -5,7 +5,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(28, 209, 103);
+    color: #025157;
     font-size: 20px;
     font-family: Verdana;
     text-align: center;
@@ -14,8 +14,9 @@ h2 {
 h3, h4, h5, h6 {
     text-align: center;
 }
+
 p {
-    color: rgb(36, 76, 185);
+    color: #343434;
     font-family: Verdana;
     font-size: 15px;
     text-align: center;
@@ -37,7 +38,7 @@ body {
     margin-right: 20px;
     font-size: 0%;
     font-family: sans-serif;
-    line-height: 45px;
+    line-height: 20px;
 }
 
 li {
@@ -49,7 +50,7 @@ li {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #f0e1d2;
+    background-color: #f3eae0;
 }
 
 .header > * {
@@ -121,9 +122,10 @@ li {
     margin-top: 10px;
 }
 
-/*.publish {
-    container styles if any
-}*/
+.publish {
+    /*container styles if any*/
+    margin-left: 20px;
+}
 
 .publish {
     margin-left: 20px;
@@ -152,5 +154,148 @@ li {
     color: #025157;
     margin-right: 18px;
 }
+
+.success-stories {
+    background-color: #a1d683;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.success-stories .overview {
+    flex: 2;
+    padding-right: 100px;
+}
+
+.success-stories .overview h2 {
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+}
+
+.success-stories .overview p {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.success-stories .overview button {
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+}
+
+.success-stories .overview img {
+    width: 500px;
+    max-width: 100%;
+}
+
+.success-stories .stories-carousel {
+    flex: 1;
+}
+
+.success-stories .stories-carousel .carousel-indicators {
+    position: unset;
+}
+
+.success-stories .stories-carousel .card {
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.success-stories .stories-carousel .card .card-media img {
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.success-stories .stories-carousel .card .card-media figure {
+    margin-top: 0;
+}
+
+.success-stories .stories-carousel .card .card-media {
+    position: relative;
+}
+
+.success-stories .stories-carousel .card .card-media .company {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-stories .stories-carousel .card .card-media .company img {
+    max-width: 75%;
+}
+
+.success-stories .stories-carousel .card .card-body,
+.success-stories .stories-carousel .card .card-footer  {
+    padding: 25px;
+}
+
+.success-stories .stories-carousel .card .card-body h4 {
+    color: #024157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.success-stories .stories-carousel .card .card-body h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.success-stories .stories-carousel .card .card-body .results {
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+
+.success-stories .stories-carousel .card .card-body .results img {
+    width: 26px;
+    margin-right: 20px;
+}
+
+.success-stories .stories-carousel .card .card-body .results p {
+    margin-top: 0;
+}
+
+.success-stories .stories-carousel .card .card-footer {
+    margin-bottom: 20px;
+    background-color: unset;
+    border-top: unset;
+}
+
+.success-stories .stories-carousel .card .card-footer button {
+    display: block;
+    margin-left: 0;
+    border-radius: 5px;
+    font-size: 13;
+    font-weight: 600;
+    padding: 12px 20px;
+    width: 100%;
+}
+
+
+
 
 
