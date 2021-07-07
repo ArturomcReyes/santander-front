@@ -27,7 +27,8 @@ button {
 }
 
 body {
-    background-color: #f5f8f8d8;
+    background-color: #51cacacc;
+    /*background-image: url('');*/
 }
 
 .header {
