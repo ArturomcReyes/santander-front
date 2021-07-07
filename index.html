@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,73 +13,83 @@
 <body>
   <section class="fixed-header">
     <header class="header">
-    <!-- Logo con link a la página principal -->
-    <a href="./index.html" class="logo">
-      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
-    </a>
-    <!-- Menú de navegación -->
-    <nav class="navbar">
-      <ul>
-        <li class="menu-item">Platform</li>
-        <li class="menu-item">Pricing</li>
-        <li class="menu-item">Customers</li>
-        <li class="menu-item">Resources</li>
-        <li class="menu-item">About</li>
-      </ul>
-    </nav>
-    <!-- Contenedor de acciones de usuario -->
-    <div class="actions">
-      <a>Sign In</a>
-      <button>Start free trial</button>
-    </div>
-  </header>
+      <!-- Logo con link a la página principal -->
+      <a href="./index.html" class="logo">
+        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
+      </a>
+      <!-- Menú de navegación -->
+      <nav class="navbar">
+        <ul>
+          <li class="menu-item">Platform</li>
+          <li class="menu-item">Pricing</li>
+          <li class="menu-item">Customers</li>
+          <li class="menu-item">Resources</li>
+          <li class="menu-item">About</li>
+        </ul>
+      </nav>
+      <!-- Contenedor de acciones de usuario -->
+      <div class="actions">
+        <a>Sign In</a>
+        <button>Start free trial</button>
+      </div>
+    </header>
   </section>
-  
+
   <!--Diferenetes niveles de jerarquizacion en etiquetas y esto se vera en el navegador web-->
-  <h1> La victoria favorece a los que se preparan </h1>
-  <h2> Mi segunda etiqueta en mi primera pagina </h2>
-  <h3> Mi tercera etiqueta en mi primera pagina </h3>
-  <h4> Mi cuarta etiqueta en mi primera pagina </h4>
-  <h5> Mi quinta etiqueta en mi primera pagina </h5>
-  <h6> Mi sexta etiqueta en mi primera pagina </h6>
-  <p>
-    <b>Yo no creo en la suerte,</b> yo creo en el trabajo duro.
-  </p>
+  <main>
+    <h1> La victoria favorece a los que se preparan </h1>
+    <h2> Mi segunda etiqueta en mi primera pagina </h2>
+    <h3> Mi tercera etiqueta en mi primera pagina </h3>
+    <h4> Mi cuarta etiqueta en mi primera pagina </h4>
+    <h5> Mi quinta etiqueta en mi primera pagina </h5>
+    <h6> Mi sexta etiqueta en mi primera pagina </h6>
+    <p>
+      <b>Yo no creo en la suerte,</b> yo creo en el trabajo duro.
+    </p>
+    <form class="signup-form">
+      <input type="email" placeholder="Ingresa tu email">
+      <button type="submit">Try it now</button>
+    </form>
+    <p>
+      "start publishing today with a "
+      <strong>free 7-day trial</strong>
+      <br>
+      <strong>No credit card</strong>
+      "required"
+    </p>
+    <figure class="banner">
+      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="capterra">
+    </figure>
+  </main>
+
   <!--Formulario-->
-  <form action="">
-    <!--En el input number podemos establecer un rango -->
+  <!--<form class="formulario">
+    En el input number podemos establecer un rango
     <label for="name">Datos</label><br><br>
     <input type="name" name="name" id="name" placeholder="Ingresa tu nombre"><br><br>
     <input type="number" name="age" id="age" placeholder="Edad" min="18" max="45"><br><br>
     <input type="email" name="email" id="email" placeholder="Correo electronico" required><br><br>
     <button type="submit">Enviar &rarr;</button>
-  </form>
-
-  <img alt="Logo de matcha" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
+  </form> -->
 
   <section class="promo">
     <article class="explanatory-video">
-      <video 
-      controls
-      poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg" 
-      >
-      <source
-      type="video/mp4"
-      src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4">
-      />
+      <video controls
+        poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
+        <source type="video/mp4"
+          src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4">
+        />
       </video>
-      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png" 
-      alt="See how it works"
-      />
+      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png" alt="See how it works" />
     </article>
     <article class="publish">
       <h3>Publish to your blog in minutes, not hours.</h3>
       <p>
-      Your blog is your most powerful asset to build, engage, and retain a loyal
-      audience. But you don’t have hours to create content that may or may not
-      work. With Matcha, instantly publish from our library of 10,000+
-      professionally written articles and build your email list faster with our
-      powerful conversion tool.
+        Your blog is your most powerful asset to build, engage, and retain a loyal
+        audience. But you don’t have hours to create content that may or may not
+        work. With Matcha, instantly publish from our library of 10,000+
+        professionally written articles and build your email list faster with our
+        powerful conversion tool.
       </p>
       <form>
         <p>Start publishing today:</p>
@@ -89,7 +100,107 @@
       </form>
     </article>
   </section>
-  
+
+  <section class="features">
+    <article class="feature-card">
+      <div class="feature-content">
+        <figure>
+          <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_publish.png"
+            alt="Publish icon"
+          />
+        </figure>
+        <h3>Fill your blog with engaging articles.</h3>
+        <p>
+          Publish to your blog in less time than it takes to drink your
+          morning coffee.
+        </p>
+        <a href="">Publish instantly →</a>
+      </div>
+      <div class="feature-image">
+        <figure>
+          <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_publish.png"
+            alt="Publish example"
+          />
+        </figure>
+      </div>
+    </article>
+    <article class="feature-card">
+      <div class="feature-content">
+        <figure>
+          <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_site_traffic.png"
+            alt="Site traffic icon"
+          />
+        </figure>
+        <h3>Attract and engage more website visitors.</h3>
+        <p>
+          Enhance your email, social media channels, and paid ads with content
+          from Matcha.
+        </p>
+        <a href="">Get more site traffic →</a>
+      </div>
+      <div class="feature-image">
+        <figure>
+          <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_site_traffic.png"
+            alt="Site traffic example"
+          />
+        </figure>
+      </div>
+    </article>
+    <article class="feature-card">
+      <div class="feature-content">
+        <figure>
+          <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_capture.png"
+            alt="Capture icon"
+          />
+        </figure>
+        <h3>Capture more emails with locked content.</h3>
+        <p>
+          Convert 10x more of your traffic into subscribers and nurture them
+          to a sale.
+        </p>
+        <a href="">Grow your email list faster →</a>
+      </div>
+      <div class="feature-image">
+        <figure>
+          <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_capture.png"
+            alt="Capture example"
+          />
+        </figure>
+      </div>
+    </article>
+    <article class="feature-card">
+      <div class="feature-content">
+        <figure>
+          <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_roi.png"
+            alt="ROI icon"
+          />
+        </figure>
+        <h3>Optimize your blog’s performance.</h3>
+        <p>
+          See what content delivers the most traffic, engagement, email
+          subscribers, and sales.
+        </p>
+        <a href="">See content’s ROI →</a>
+      </div>
+      <div class="feature-image">
+        <figure>
+          <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_roi.png"
+            alt="ROI example"
+          />
+        </figure>
+      </div>
+    </article>
+  </section>
+
+
   <section class="success-stories">
     <article class="overview">
       <h2>Growing ecommerce brands rely on Matcha.</h2>
@@ -103,33 +214,22 @@
         Who Uses Matcha?
       </button>
       <figure>
-        <img
-          src="https://getmatcha.com/wp-content/uploads/2019/09/brands_group.png"
-          alt="Brands"
-        />
+        <img src="https://getmatcha.com/wp-content/uploads/2019/09/brands_group.png" alt="Brands" />
       </figure>
     </article>
     <article class="stories-carousel">
-      <div
-        id="carouselExampleFade"
-        class="carousel slide carousel-fade"
-        data-ride="carousel"
-      >
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="card">
               <div class="card-media">
                 <figure>
-                  <img
-                    src="https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png"
-                    alt="Everly worker"
-                  />
+                  <img src="https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png"
+                    alt="Everly worker" />
                 </figure>
                 <div class="company">
-                  <img
-                    src="https://getmatcha.com/wp-content/uploads/2019/05/everly_logo_blue_v3_x60@2x.png"
-                    alt="Everly"
-                  />
+                  <img src="https://getmatcha.com/wp-content/uploads/2019/05/everly_logo_blue_v3_x60@2x.png"
+                    alt="Everly" />
                 </div>
               </div>
               <div class="card-body">
@@ -139,10 +239,7 @@
                   Ecommerce Revenue 20%
                 </h3>
                 <div class="results">
-                  <img
-                    src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_cart.png"
-                    alt="Cart icon"
-                  />
+                  <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_cart.png" alt="Cart icon" />
                   <p>22% of monthly revenue influenced by content</p>
                 </div>
               </div>
@@ -150,32 +247,18 @@
                 <button>See Case Study</button>
               </div>
             </div>
-          </div>          
+          </div>
         </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleFade"
-          role="button"
-          data-slide="prev"
-        >
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleFade"
-          role="button"
-          data-slide="next"
-        >
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
         <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleFade"
-            data-slide-to="0"
-            class="active"
-          ></li>
+          <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleFade" data-slide-to="1"></li>
           <li data-target="#carouselExampleFade" data-slide-to="2"></li>
         </ol>
