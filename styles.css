@@ -509,6 +509,62 @@ li {
         text-align: center;
         color: #67b54b;
     }
+
+    .banner > img {
+        width: 100%;
+    }
+    
+    .publish > form {
+        flex-direction: column;
+    }
+
+    .publish > form > div {
+        display: flex;
+        height: 50px;
+        margin-top: 30px;
+        align-items: center;
+    }
+
+    .publish > form > input {
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+
+    .publish > form > button {
+        display: flex;
+        width: 15%;
+        align-items: center;
+    }
+
+    .promo {
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .explanatory-video > video {
+        width: 100%;
+    }
+
+    .publish {
+        margin-top: 10px;
+    }
+
+    .publish > h3 {
+        font-size: 25px;
+        line-height: 1.1;
+    }
+
+    .features {
+        grid-template: repeat(4, 1fr) / 1fr;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .feature-image {
+        display: none;
+        align-items: center;
+    }
 }
   
 /** dispositivos pequeños en vista landscape (horizontal) */
